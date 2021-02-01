@@ -1,0 +1,60 @@
+:root {
+  --hijau: #00c9b8;
+  --hijaugelap: #036860;
+  --ungu: #330185;
+  --ungugelap: #12002d;
+}
+
+.wrap-container {
+  overflow: hidden;
+}
+
+.menu {
+  background: #36008d;
+  border: none;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-sign {
+  color: white;
+  background-color: var(--hijau);
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+.btn-sign:hover,
+.btn-sign:focus {
+  background-color: var(--hijaugelap);
+  outline: none;
+}
+.hero {
+  background: linear-gradient(180deg, #36008d 0%, #100028 100%);
+}
+
+.card {
+  border: 0.5px solid rgba(75, 75, 75, 0.212);
+  border-radius: 20px;
+  box-shadow: 4px 19px 25px -9px rgba(0, 0, 0, 0.25);
+}
+
+.title-study {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.slogan {
+  margin-top: 100px;
+  background-color: var(--ungugelap);
+  padding: 20px 0px;
+}
+
+.page-footer {
+  background-color: var(--ungugelap);
+  color: white;
+}
